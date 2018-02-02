@@ -1,6 +1,6 @@
 pkgname=godex-ppd
 _pkgname=rastertoezpl
-pkgver=1.1.0
+pkgver=1.1.2
 pkgrel=1
 pkgdesc='CUPS Printer Driver for Godex Models'
 url='http://www.godexintl.com/global/download/downloads/list/Drivers'
@@ -11,8 +11,8 @@ license=('GPL2')
 depends=(cups
          cups-filters)
 # source download from git repo & prepare
-source=(rastertoezpl-1.1.0.tar.gz::http://www.godexintl.com/global/download/downloads/Download/5597)
-sha256sums=('a1ed3364fd6cf55268e3fc8ed3bd8290f9976a0df72d96cadb84a9d755d71953')
+source=(rastertoezpl-1.1.2.tar.gz::http://www.godexintl.com/global/download/downloads/Download/5597)
+sha256sums=('8473c35f78debf808455e9c81b91ed064cc8110ec7b5f0a6eb949c18f1f0486a')
 
 build() {
 	cd ${srcdir}/${_pkgname}-${pkgver}
