@@ -11,7 +11,8 @@ license=('GPL2')
 depends=(cups
          cups-filters)
 # source download from git repo & prepare
-source=(rastertoezpl-1.1.2.tar.gz::http://www.godexintl.com/global/download/downloads/Download/5597)
+
+source=("${_pkgname}-${pkgver}.tar.gz::https://godex.s3-accelerate.amazonaws.com/UNEA1AgmT_CxGlxZUzqnlQ.file?v01")
 sha256sums=('8473c35f78debf808455e9c81b91ed064cc8110ec7b5f0a6eb949c18f1f0486a')
 
 build() {
